@@ -1,0 +1,24 @@
+{
+  "name": "burger3",
+  "version": "1.0.0",
+  "description": "This time we extend the previous Eat Da Burger project which was a full stack burger-logger web app. We continue to use Node, Express server, and Handlebars for view generation. MySQL remains our database, but we switch to using Sequelize ORM.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Burger2-Sequel"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.9",
+    "mysql2": "^1.4.1",
+    "sequelize": "^4.6.0"
+  }
+}
